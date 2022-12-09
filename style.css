@@ -1,0 +1,153 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    /* width: 100%; */
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 1024px;
+    margin: 0 auto;
+    box-shadow: 10px 10px 40px -1px rgba(0, 0, 0, 0.23);
+}
+
+header {
+    display: flex;
+    min-height: 40px;
+    background-color:rgb(70, 100, 140);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.left_menu {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding: 20px;
+    background-color:rgb(100, 130, 170);
+    color: white;
+}
+
+.contacts li a {
+text-decoration: none;
+color: white;
+}
+
+/* .contacts li p {
+
+} */
+
+.contacts li img {
+vertical-align: middle;
+margin-right: 10px;
+}
+
+.right_menu {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding: 20px;
+    background-color:rgb(156, 188, 227);
+}
+
+.code_box {
+   
+    background-color: white;
+    border: 2px solid black;
+    padding: 5px;
+    margin-left: 0px;
+}
+
+pre {
+    margin-left: 0px;
+}
+
+footer {
+    display: flex;
+    min-height: 40px;
+    background-color:rgb(70, 100, 140);
+}
+
+.footer_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}    
+
+.font_trans {
+    font-size: 12px;
+    padding-left: 45px;
+    padding-top: 0px;
+}
+
+.font_locals {
+    font-size: 12px;
+    padding-left: 45px;
+    padding-top: 0px;
+}
+
+.image {
+    /* display: block; */
+    margin: 0 auto;
+    border: 10px solid rgb(70, 100, 140);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.icon {
+    height: 30px;
+}
+
+.icon_location {
+    height: 30px;
+}
+
+.icon_skills {
+    /* width: 40px; */
+    height: 25px;
+    padding: 3px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+h1 {
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    /* margin: 0;
+    margin-bottom: 20px; */
+}
+
+h2{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    /* margin: 0;
+    margin-bottom: 20px; */
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+
+.contacts {
+    align-items: center;
+    padding-left: 5px;
+}
+
+li {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    list-style-type: none;
+}
+
+.skills_item {
+    /* padding-left: 15px; */
+    list-style-type: square;
+}
