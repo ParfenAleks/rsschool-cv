@@ -50,3 +50,5 @@ function multiply(a, b){
 
 - **English:** Pre-intermediate (A2-)
 - **Russian:** Native
+
+This text will be added just for one more commit, becouse two not enough for RSSchool
