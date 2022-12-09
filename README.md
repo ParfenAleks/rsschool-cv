@@ -1,1 +1,1 @@
-https://ParfenAleks.github.io/rsschool-cv/cv
+https://ParfenAleks.github.io/rsschool-cv/
